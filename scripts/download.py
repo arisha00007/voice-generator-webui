@@ -25,5 +25,5 @@ def get_vits_model(model_name):
     if not os.path.exists(f'vc/models/hubert_base.pt'):
         download_file(f'https://huggingface.co/lj1995/VoiceConversionWebUI/resolve/main/hubert_base.pt', 'vc/models')
     if not os.path.exists(f'tts/models/{model_name}.pth'):
-        download_file(f'https://huggingface.co/jonathan0007/12/resolve/main/autoregressive.pth')
-        download_file(f'https://huggingface.co/jonathan0007/12/resolve/main/autoregressive.pth')
+        download_file(f'https://huggingface.co/jonathan0007/12/blob/main/autoregressive.pth')
+        download_file(f'https://huggingface.co/jonathan0007/12/blob/main/autoregressive.pth')
